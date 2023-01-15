@@ -6,10 +6,10 @@
  - Andar para esquerda
  - Se encontrar lute
  - Se encontrar raro pare
- - Após fechar continue
+ - Após fechar batalha continue
 Diagram. 
 
-Para adaptar ao seu jogo mude o battle button para os botões de batalha do jogo. Ajuste também o tempo que leva para uma batalha se iniciar. Caso necessite dos sprites pegue da pokedex ou pegue da bulbapedia do jogo correspondente ao seu. 
+O programa tende a falhar e deve ser configurado diferentemente de jogo pra jogo e de tamanho de tela para outro diferente.
 
 ESTE PROGRAMA É FEITO UNICO E EXCLUSIVAMENTE PARA ESTUDOS
 
@@ -24,4 +24,7 @@ Patch Notes 1.2:
 - Melhorias na função de andar, que antes concluia um ciclo de direita e esquerda e depois verificava. Agora faz apenas 1 direção e verifica. 
 - Retirada função if de batalha, que causava um delay consideravel para verificação, sendo agora uma chamada de função. 
 - Testes estão sendo realizados no reconhecimento de pokemon utilizando cores agora. No momento utilize where.py e pegue R G ou B no valor correspondente. Explicações dentro do código.
+
+Patch Note 15/01/23:
+- Melhoria na manutenção do programa e reformulação do passe.
  
